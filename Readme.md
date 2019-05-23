@@ -1,3 +1,3 @@
 AmalanKu
 
-Aplikasi Jadwal Sholat Dan Baca Qur'an
+Aplikasi Baca qur'an Jadwal Sholat dan lainnya
