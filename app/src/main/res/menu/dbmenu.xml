@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Dpagi"
+        android:title="Dzikir Pagi"
+        android:icon="@drawable/ic_pagi"
+        />
+    <item
+        android:id="@+id/Dsore"
+        android:title="Dzikir Sore"
+        android:icon="@drawable/ic_petang"
+        />
+    <item
+        android:id="@+id/quran"
+        android:title="Al-Qur'an"
+        android:icon="@drawable/ic_quran"
+        />
+    <item
+        android:id="@+id/jsholat"
+        android:title="Jadwal Sholat"
+        android:icon="@drawable/ic_jsholat"
+        />
+    <item
+        android:id="@+id/lainnya"
+        android:title="Lainnya"
+        android:icon="@drawable/ic_lainnya"
+        />
+</menu>
