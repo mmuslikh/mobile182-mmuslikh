@@ -5,21 +5,248 @@
     <!--<item name="colorPrimaryDark">#512DA8</item>-->
     <!--<item name="colorAccent">#FF4081</item>-->
     <!--</style>-->
+    <string name="setting">Setting</string>
     <string name="app_name">AmalanKuu</string>
-    <string name="navigation_drawer_open">navigation_drawer_open</string>
-    <string name="navigation_drawer_close">navigation_drawer_close</string>
-    <string name="setting">Pengaturan</string>
-    <string name="db">Beranda</string>
-    <string name="about">Tentang</string>
-    <string name="keluar">Keluar</string>
-   <string name="share">Share</string>
+
+<!--<string-array name="surah">-->
+    <!--<item>1 ) Surah Al-Fatihah - Pembukaan </item>-->
+    <!--<item>	2	)	Surah Al-Baqarah	-	Sapi Betina	</item>-->
+    <!--<item>	3	)	Surah Ali 'Imran	-	Keluarga 'Imran	</item>-->
+    <!--<item>	4	)	Surah An-Nisa'	-	Wanita	</item>-->
+    <!--<item>	5	)	Surah Al-Ma'idah	-	Jamuan (hidangan makanan)	</item>-->
+    <!--<item>	6	)	Surah Al-An'am	-	Binatang Ternak	</item>-->
+    <!--<item>	7	)	Surah Al-A’raf	-	Tempat yang tertinggi	</item>-->
+    <!--<item>	8	)	Surah Al-Anfal	-	Harta rampasan perang	</item>-->
+    <!--<item>	9	)	Surah At-Taubah	-	Pengampunan	</item>-->
+    <!--<item>	10	)	Surah Yunus	-	Nabi Yunus	</item>-->
+    <!--<item>	11	)	Surah Hud	-	Nabi Hud	</item>-->
+    <!--<item>	12	)	Surah Yusuf	-	Nabi Yusuf	</item>-->
+    <!--<item>	13	)	Surah Ar-Ra’d	-	Guruh (petir)	</item>-->
+    <!--<item>	14	)	Surah Ibrahim	-	Nabi Ibrahim	</item>-->
+    <!--<item>	15	)	Surah Al-Hijr	-	Al Hijr (nama gunung)	</item>-->
+    <!--<item>	16	)	Surah An-Nahl	-	Lebah	</item>-->
+    <!--<item>	17	)	Surah Al-Isra'	-	Memperjalankan di waktu malam	</item>-->
+    <!--<item>	18	)	Surah Al-Kahf	-	Penghuni-penghuni gua	</item>-->
+    <!--<item>	19	)	Surah Maryam	-	Maryam (Maria)	</item>-->
+    <!--<item>	20	)	Surah Ta Ha	-	Ta Ha	</item>-->
+    <!--<item>	21	)	Surah Al-Anbiya	-	Nabi-Nabi	</item>-->
+    <!--<item>	22	)	Surah Al-Hajj	-	Haji	</item>-->
+    <!--<item>	23	)	Surah Al-Mu’minun	-	Orang-orang mukmin	</item>-->
+    <!--<item>	24	)	Surah An-Nur	-	Cahaya	</item>-->
+    <!--<item>	25	)	Surah Al-Furqan	-	Pembeda	</item>-->
+    <!--<item>	26	)	Surah Asy-Syu'ara'	-	Penyair	</item>-->
+    <!--<item>	27	)	Surah An-Naml	-	Semut	</item>-->
+    <!--<item>	28	)	Surah Al-Qasas	-	Cerita	</item>-->
+    <!--<item>	29	)	Surah Al-'Ankabut	-	Laba-laba	</item>-->
+    <!--<item>	30	)	Surah Ar-Rum	-	Bangsa Romawi	</item>-->
+    <!--<item>	31	)	Surah Luqman	-	Keluarga Luqman	</item>-->
+    <!--<item>	32	)	Surah As-Sajdah	-	Sajdah	</item>-->
+    <!--<item>	33	)	Surah Al-Ahzab	-	Golongan-Golongan yang bersekutu	</item>-->
+    <!--<item>	34	)	Surah Saba’	-	Kaum Saba'	</item>-->
+    <!--<item>	35	)	Surah Fatir	-	Pencipta	</item>-->
+    <!--<item>	36	)	Surah Ya Sin	-	Yaasiin	</item>-->
+    <!--<item>	37	)	Surah As-Saffat	-	Barisan-barisan	</item>-->
+    <!--<item>	38	)	Surah Sad	-	Shaad	</item>-->
+    <!--<item>	39	)	Surah Az-Zumar	-	Rombongan-rombongan	</item>-->
+    <!--<item>	40	)	Surah Al-Mu’min	-	Orang yg Beriman	</item>-->
+    <!--<item>	41	)	Surah Fussilat	-	Yang dijelaskan	</item>-->
+    <!--<item>	42	)	Surah Asy-Syura	-	Musyawarah	</item>-->
+    <!--<item>	43	)	Surah Az-Zukhruf	-	Perhiasan	</item>-->
+    <!--<item>	44	)	Surah Ad-Dukhan	-	Kabut	</item>-->
+    <!--<item>	45	)	Surah Al-Jasiyah	-	Yang bertekuk lutut	</item>-->
+    <!--<item>	46	)	Surah Al-Ahqaf	-	Bukit-bukit pasir	</item>-->
+    <!--<item>	47	)	Surah Muhammad	-	Muhammad	</item>-->
+    <!--<item>	48	)	Surah Al-Fath	-	Kemenangan	</item>-->
+    <!--<item>	49	)	Surah Al-Hujurat	-	Kamar-kamar	</item>-->
+    <!--<item>	50	)	Surah Qaf	-	Qaaf	</item>-->
+    <!--<item>	51	)	Surah Az-Zariyat	-	Angin yang menerbangkan	</item>-->
+    <!--<item>	52	)	Surah At-Tur	-	Bukit	</item>-->
+    <!--<item>	53	)	Surah An-Najm	-	Bintang	</item>-->
+    <!--<item>	54	)	Surah Al-Qamar	-	Bulan	</item>-->
+    <!--<item>	55	)	Surah Ar-Rahman	-	Yang Maha Pemurah	</item>-->
+    <!--<item>	56	)	Surah Al-Waqi’ah	-	Hari Kiamat	</item>-->
+    <!--<item>	57	)	Surah Al-Hadid	-	Besi	</item>-->
+    <!--<item>	58	)	Surah Al-Mujadilah	-	Wanita yang mengajukan gugatan	</item>-->
+    <!--<item>	59	)	Surah Al-Hasyr	-	Pengusiran	</item>-->
+    <!--<item>	60	)	Surah Al-Mumtahanah	-	Wanita yang diuji	</item>-->
+    <!--<item>	61	)	Surah As-Saff	-	Satu barisan	</item>-->
+    <!--<item>	62	)	Surah Al-Jumu’ah	-	Hari Jum’at	</item>-->
+    <!--<item>	63	)	Surah Al-Munafiqun	-	Orang-orang yang munafik	</item>-->
+    <!--<item>	64	)	Surah At-Tagabun	-	Hari dinampakkan kesalahan-kesalahan	</item>-->
+    <!--<item>	65	)	Surah At-Talaq	-	Talak	</item>-->
+    <!--<item>	66	)	Surah At-Tahrim	-	Mengharamkan	</item>-->
+    <!--<item>	67	)	Surah Al-Mulk	-	Kerajaan	</item>-->
+    <!--<item>	68	)	Surah Al-Qalam	-	Pena	</item>-->
+    <!--<item>	69	)	Surah Al-Haqqah	-	Hari kiamat	</item>-->
+    <!--<item>	70	)	Surah Al-Ma’arij	-	Tempat naik	</item>-->
+    <!--<item>	71	)	Surah Nuh	-	Nuh	</item>-->
+    <!--<item>	72	)	Surah Al-Jinn	-	Jin	</item>-->
+    <!--<item>	73	)	Surah Al-Muzzammil	-	Orang yang berselimut	</item>-->
+    <!--<item>	74	)	Surah Al-Muddassir	-	Orang yang berkemul	</item>-->
+    <!--<item>	75	)	Surah Al-Qiyamah	-	Hari Kiamat	</item>-->
+    <!--<item>	76	)	Surah Al-Insan	-	Manusia	</item>-->
+    <!--<item>	77	)	Surah Al-Mursalat	-	Malaikat-Malaikat Yang Diutus	</item>-->
+    <!--<item>	78	)	Surah An-Naba’	-	Berita besar	</item>-->
+    <!--<item>	79	)	Surah An-Nazi’at	-	Malaikat-Malaikat Yang Mencabut	</item>-->
+    <!--<item>	80	)	Surah 'Abasa	-	Ia Bermuka masam	</item>-->
+    <!--<item>	81	)	Surah At-Takwir	-	Menggulung	</item>-->
+    <!--<item>	82	)	Surah Al-Infitar	-	Terbelah	</item>-->
+    <!--<item>	83	)	Surah Al-Tatfif	-	Orang-orang yang curang	</item>-->
+    <!--<item>	84	)	Surah Al-Insyiqaq	-	Terbelah	</item>-->
+    <!--<item>	85	)	Surah Al-Buruj	-	Gugusan bintang	</item>-->
+    <!--<item>	86	)	Surah At-Tariq	-	Yang datang di malam hari	</item>-->
+    <!--<item>	87	)	Surah Al-A’la	-	Yang paling tinggi	</item>-->
+    <!--<item>	88	)	Surah Al-Gasyiyah	-	Hari Pembalasan	</item>-->
+    <!--<item>	89	)	Surah Al-Fajr	-	Fajar	</item>-->
+    <!--<item>	90	)	Surah Al-Balad	-	Negeri	</item>-->
+    <!--<item>	91	)	Surah Asy-Syams	-	Matahari	</item>-->
+    <!--<item>	92	)	Surah Al-Lail	-	Malam	</item>-->
+    <!--<item>	93	)	Surah Ad-Duha	-	Waktu matahari sepenggalahan naik (Dhuha)	</item>-->
+    <!--<item>	94	)	Surah Al-Insyirah	-	Melapangkan	</item>-->
+    <!--<item>	95	)	Surah At-Tin	-	Buah Tin	</item>-->
+    <!--<item>	96	)	Surah Al-'Alaq	-	Segumpal Darah	</item>-->
+    <!--<item>	97	)	Surah Al-Qadr	-	Kemuliaan	</item>-->
+    <!--<item>	98	)	Surah Al-Bayyinah	-	Pembuktian	</item>-->
+    <!--<item>	99	)	Surah Az-Zalzalah	-	Kegoncangan	</item>-->
+    <!--<item>	100	)	Surah Al-'Adiyat	-	Berlari kencang	</item>-->
+    <!--<item>	101	)	Surah Al-Qari'ah	-	Hari Kiamat	</item>-->
+    <!--<item>	102	)	Surah At-Takasur	-	Bermegah-megahan	</item>-->
+    <!--<item>	103	)	Surah Al-'Asr	-	Masa/Waktu	</item>-->
+    <!--<item>	104	)	Surah Al-Humazah	-	Pengumpat	</item>-->
+    <!--<item>	105	)	Surah Al-Fil	-	Gajah	</item>-->
+    <!--<item>	106	)	Surah Quraisy	-	Suku Quraisy	</item>-->
+    <!--<item>	107	)	Surah Al-Ma’un	-	Barang-barang yang berguna	</item>-->
+    <!--<item>	108	)	Surah Al-Kausar	-	Nikmat yang berlimpah	</item>-->
+    <!--<item>	109	)	Surah Al-Kafirun	-	Orang-orang kafir	</item>-->
+    <!--<item>	110	)	Surah An-Nasr	-	Pertolongan	</item>-->
+    <!--<item>	111	)	Surah Al-Lahab	-	Gejolak Api/ Sabut	</item>-->
+    <!--<item>	112	)	Surah Al-Ikhlas	-	Ikhlas	</item>-->
+    <!--<item>	113	)	Surah Al-Falaq	-	Waktu Subuh	</item>-->
+    <!--<item>	114	)	Surah An-Nas	-	Manusia	</item>-->
+
+<!--//</string-array>-->
+    <string-array name="surah">
+        <item>1) Surah Al-Fatihah - Pembukaan</item>
+        <item>2) Surah Al-Baqarah - Sapi Betina</item>
+        <item>3) Surah Ali ‘Imran - Keluarga ‘Imran</item>
+        <item>4) Surah An-Nisa’ - Wanita</item>
+        <item>5) Surah Al-Ma’idah - Jamuan (Hidangan Makanan)</item>
+        <item>6) Surah Al-An’am	-	الانعام	-	Binatang Ternak	</item>
+        <item>7) Surah Al-A’raf	-	الأعراف	-	Tempat Yang Tertinggi	</item>
+        <item>  8	)	Surah Al-Anfal	-	الأنفال	-	Harta Rampasan Perang	</item>
+        <item>  9	)	Surah At-Taubah	-	التوبة‎‎	-	Pengampunan	</item>
+        <item>  10	)	Surah Yunus	-	ينوس	-	Nabi Yunus	</item>
+        <item>  11	)	Surah Hud	-	هود	-	Nabi Hud	</item>
+        <item>  12	)	Surah Yusuf	-	يسوف	-	Nabi Yusuf	</item>
+        <item>  13	)	Surah Ar-Ra’d	-	الرّعد	-	Guruh (Petir)	</item>
+        <item>  14	)	Surah Ibrahim	-	إبراهيم	-	Nabi Ibrahim	</item>
+        <item>  15	)	Surah Al-Hijr	-	الحجر	-	Al Hijr (Nama Gunung)	</item>
+        <item>  16	)	Surah An-Nahl	-	النّحل	-	Lebah	</item>
+        <item>  17	)	Surah Al-Isra’	-	بني إسرائيل	-	Memperjalankan Di Waktu Malam	</item>
+        <item>	18	)	Surah Al-Kahf	-	الكهف	-	Penghuni-Penghuni Gua	</item>
+        <item>	19	)	Surah Maryam	-	مريم	-	Maryam (Maria)	</item>
+        <item>	20	)	Surah Ta Ha	-	طه	-	Ta Ha	</item>
+        <item>	21	)	Surah Al-Anbiya	-	الأنبياء	-	Nabi-Nabi	</item>
+        <item>	22	)	Surah Al-Hajj	-	الحجّ	-	Haji	</item>
+        <item>	23	)	Surah Al-Mu’minun	-	المؤمنون	-	Orang-Orang Mukmin	</item>
+        <item>	24	)	Surah An-Nur	-	النّور	-	Cahaya	</item>
+        <item>	25	)	Surah Al-Furqan	-	الفرقان	-	Pembeda	</item>
+        <item>	26	)	Surah Asy-Syu’ara’	-	الشّعراء	-	Penyair	</item>
+        <item>	27	)	Surah An-Naml	-	النّمل	-	Semut	</item>
+        <item>	28	)	Surah Al-Qasas	-	القصص	-	Cerita	</item>
+        <item>	29	)	Surah Al-‘Ankabut	-	العنكبوت	-	Laba-Laba	</item>
+        <item>	30	)	Surah Ar-Rum	-	الرّوم	-	Bangsa Romawi	</item>
+        <item>	31	)	Surah Luqman	-	لقمان	-	Keluarga Luqman	</item>
+        <item>	32	)	Surah As-Sajdah	-	السّجدة	-	Sajdah	</item>
+        <item>	33	)	Surah Al-Ahzab	-	الْأحزاب	-	Golongan-Golongan Yang Bersekutu	</item>
+        <item>	34	)	Surah Saba’	-	سبا	-	Kaum Saba’	</item>
+        <item>	35	)	Surah Fatir	-	فاطر	-	Pencipta	</item>
+        <item>	36	)	Surah Ya Sin	-	يس	-	Yaasiin	</item>
+        <item>	37	)	Surah As-Saffat	-	الصّافات	-	Barisan-Barisan	</item>
+        <item>	38	)	Surah Sad	-	ص	-	Shaad	</item>
+        <item>	39	)	Surah Az-Zumar	-	الزّمر	-	Rombongan-Rombongan	</item>
+        <item>	40	)	Surah Al-Mu’min	-	المؤمن	-	Orang Yg Beriman	</item>
+        <item>	41	)	Surah Fussilat	-	فصّلت	-	Yang Dijelaskan	</item>
+        <item>	42	)	Surah Asy-Syura	-	الشّورى	-	Musyawarah	</item>
+        <item>	43	)	Surah Az-Zukhruf	-	الزّخرف	-	Perhiasan	</item>
+        <item>	44	)	Surah Ad-Dukhan	-	الدّخان	-	Kabut	</item>
+        <item>	45	)	Surah Al-Jasiyah	-	الجاثية	-	Yang Bertekuk Lutut	</item>
+        <item>	46	)	Surah Al-Ahqaf	-	الَأحقاف	-	Bukit-Bukit Pasir	</item>
+        <item>	47	)	Surah Muhammad	-	محمّد	-	Muhammad	</item>
+        <item>	48	)	Surah Al-Fath	-	الفتح	-	Kemenangan	</item>
+        <item>	49	)	Surah Al-Hujurat	-	الحجرات	-	Kamar-Kamar	</item>
+        <item>	50	)	Surah Qaf	-	ق	-	Qaaf	</item>
+        <item>	51	)	Surah Az-Zariyat	-	الذّاريات	-	Angin Yang Menerbangkan	</item>
+        <item>	52	)	Surah At-Tur	-	الطّور	-	Bukit	</item>
+        <item>	53	)	Surah An-Najm	-	النّجْم	-	Bintang	</item>
+        <item>	54	)	Surah Al-Qamar	-	القمر	-	Bulan	</item>
+        <item>	55	)	Surah Ar-Rahman	-	الرّحْمن	-	Yang Maha Pemurah	</item>
+        <item>	56	)	Surah Al-Waqi’ah	-	الواقعه	-	Hari Kiamat	</item>
+        <item>	57	)	Surah Al-Hadid	-	الحديد	-	Besi	</item>
+        <item>	58	)	Surah Al-Mujadilah	-	المجادلة	-	Wanita Yang Mengajukan Gugatan	</item>
+        <item>	59	)	Surah Al-Hasyr	-	الحشْر	-	Pengusiran	</item>
+        <item>	60	)	Surah Al-Mumtahanah	-	الممتحنة	-	Wanita Yang Diuji	</item>
+        <item>	61	)	Surah As-Saff	-	الصّفّ	-	Satu Barisan	</item>
+        <item>	62	)	Surah Al-Jumu’ah	-	الجمعة	-	Hari Jum’at	</item>
+        <item>	63	)	Surah Al-Munafiqun	-	المنافقون	-	Orang-Orang Yang Munafik	</item>
+        <item>	64	)	Surah At-Tagabun	-	التّغابن	-	Hari Dinampakkan Kesalahan-Kesalahan	</item>
+        <item>	65	)	Surah At-Talaq	-	الطّلاق	-	Talak	</item>
+        <item>	66	)	Surah At-Tahrim	-	التّحريم	-	Mengharamkan	</item>
+        <item>	67	)	Surah Al-Mulk	-	الملك	-	Kerajaan	</item>
+        <item>	68	)	Surah Al-Qalam	-	القلم	-	Pena	</item>
+        <item>	69	)	Surah Al-Haqqah	-	الحآقّة	-	Hari Kiamat	</item>
+        <item>	70	)	Surah Al-Ma’arij	-	المعارج	-	Tempat Naik	</item>
+        <item>	71	)	Surah Nuh	-	نوح	-	Nuh	</item>
+        <item>	72	)	Surah Al-Jinn	-	الجنّ	-	Jin	</item>
+        <item>	73	)	Surah Al-Muzzammil	-	المزمّل	-	Orang Yang Berselimut	</item>
+        <item>	74	)	Surah Al-Muddassir	-	المدشّر	-	Orang Yang Berkemul	</item>
+        <item>	75	)	Surah Al-Qiyamah	-	القيمة	-	Hari Kiamat	</item>
+        <item>	76	)	Surah Al-Insan	-	الْاٍنسان	-	Manusia	</item>
+        <item>	77	)	Surah Al-Mursalat	-	المرسلات	-	Malaikat-Malaikat Yang Diutus	</item>
+        <item>	78	)	Surah An-Naba’	-	النّبا	-	Berita Besar	</item>
+        <item>	79	)	Surah An-Nazi’at	-	النّازعات	-	Malaikat-Malaikat Yang Mencabut	</item>
+        <item>	80	)	Surah ‘Abasa	-	عبس	-	Ia Bermuka Masam	</item>
+        <item>	81	)	Surah At-Takwir	-	التّكوير	-	Menggulung	</item>
+        <item>	82	)	Surah Al-Infitar	-	الانفطار	-	Terbelah	</item>
+        <item>	83	)	Surah Al-Tatfif	-	المطفّفين	-	Orang-Orang Yang Curang	</item>
+        <item>	84	)	Surah Al-Insyiqaq	-	الانشقاق	-	Terbelah	</item>
+        <item>	85	)	Surah Al-Buruj	-	البروج	-	Gugusan Bintang	</item>
+        <item>	86	)	Surah At-Tariq	-	الطّارق	-	Yang Datang Di Malam Hari	</item>
+        <item>	87	)	Surah Al-A’la	-	الْأعلى	-	Yang Paling Tinggi	</item>
+        <item>	88	)	Surah Al-Gasyiyah	-	الغاشية	-	Hari Pembalasan	</item>
+        <item>	89	)	Surah Al-Fajr	-	الفجر	-	Fajar	</item>
+        <item>	90	)	Surah Al-Balad	-	البلد	-	Negeri	</item>
+        <item>	91	)	Surah Asy-Syams	-	الشّمس	-	Matahari	</item>
+        <item>	92	)	Surah Al-Lail	-	الّيل	-	Malam	</item>
+        <item>	93	)	Surah Ad-Duha	-	الضحى‎‎	-	Waktu Matahari Sepenggalahan Naik (Dhuha)	</item>
+        <item>	94	)	Surah Al-Insyirah	-	الانشراح‎‎	-	Melapangkan	</item>
+        <item>	95	)	Surah At-Tin	-	التِّينِ	-	Buah Tin	</item>
+        <item>	96	)	Surah Al-‘Alaq	-	العَلَق	-	Segumpal Darah	</item>
+        <item>	97	)	Surah Al-Qadr	-	الْقَدْرِ	-	Kemuliaan	</item>
+        <item>	98	)	Surah Al-Bayyinah	-	الْبَيِّنَةُ	-	Pembuktian	</item>
+        <item>	99	)	Surah Az-Zalzalah	-	الزلزلة‎‎	-	Kegoncangan	</item>
+        <item>	100	)	Surah Al-‘Adiyat	-	العاديات‎‎	-	Berlari Kencang	</item>
+        <item>	101	)	Surah Al-Qari’ah	-	القارعة‎‎	-	Hari Kiamat	</item>
+        <item>	102	)	Surah At-Takasur	-	التكاثر‎‎	-	Bermegah-Megahan	</item>
+        <item>	103	)	Surah Al-‘Asr	-	العصر	-	Masa/Waktu	</item>
+        <item>	104	)	Surah Al-Humazah	-	الهُمَزة‎‎	-	Pengumpat	</item>
+        <item>	105	)	Surah Al-Fil	-	الْفِيلِ	-	Gajah	</item>
+        <item>	106	)	Surah Quraisy	-	قُرَيْشٍ	-	Suku Quraisy	</item>
+        <item>	107	)	Surah Al-Ma’un	-	الْمَاعُونَ	-	Barang-Barang Yang Berguna	</item>
+        <item>	108	)	Surah Al-Kausar	-	الكوثر	-	Nikmat Yang Berlimpah	</item>
+        <item>	109	)	Surah Al-Kafirun	-	الْكَافِرُونَ	-	Orang-Orang Kafir	</item>
+        <item>	110	)	Surah An-Nasr	-	النصر‎‎	-	Pertolongan	</item>
+        <item>	111	)	Surah Al-Lahab	-	المسد‎‎	-	Gejolak Api/ Sabut	</item>
+        <item>	112	)	Surah Al-Ikhlas	-	الإخلاص‎‎	-	Ikhlas	</item>
+        <item>	113	)	Surah Al-Falaq	-	الْفَلَقِ	-	Waktu Subuh	</item>
+        <item>	114	)	Surah An-Nas	-	النَّاسِ	-	Manusia	</item>
+
+
+    </string-array>
+    <string name="share">Share</string>
     <string name="copy">Copy</string>
-    <string name="tentang">Aplikasi Ini merupakan Aplikasi yang tujuan utamananya buat
-		       memudahkan saya dalam melakukan Dzikir pagi dan Sore dan juga
-		       Buat Baca Alquran dan melakukan amalan-amalan Lainya.
-        \n
-        Semoga aplikasi Ini Bermanfaat.\n
-    </string>
+    <string name="rootWord">Root</string>
+   <string name="bismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيم</string>
     <string name="pembuka">
         Zikir Pagi Dan Sore, dibaca. Dilaksanakan , Dikuasai, Dipahami. Beneran Penting banget.
         Asuransi dunia mah bayar. Dan Mahal banget pula. Ini kan Tinggal vaca Doang ,
@@ -34,10 +261,6 @@
         Zikir Pagi dan Zikir Sore, boleh sambil berraktifitas.\n \n
         ~~ Ust. Yusuf Mansur ~~\n
     </string>
-    <string name="iklan1">ca-app-pub-7783830077555130/8720619040</string>
-    <!--<string name="iklan4">ca-app-pub-4686886609878758/5298553204</string>-->
-    <!--<string name="iklan3">ca-app-pub-3940256099942544/6300978111</string>-->
-    <!--<string name="iklan1">ca-app-pub-4686886609878758/9998958966</string>-->
 <string-array name="pagi">
     <item>.</item>
     <item>
