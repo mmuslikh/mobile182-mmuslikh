@@ -63,14 +63,11 @@
             android:parentActivityName=".MainActivity"
 
             />
-        <activity android:name=".quran"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".list_surah"/>
-        <receiver
-            android:name=".AppReceiver"
-            android:enabled="true"
-            android:exported="true"/>
-        <service android:name=".androidService"/>
+        <activity android:name=".AlQuran"
+            android:screenOrientation="portrait"/>
+       <activity android:name=".ListSurahActivity"
+           android:screenOrientation="portrait"
+           android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>
